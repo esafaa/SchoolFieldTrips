@@ -15,7 +15,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
-
+/* User entity 
+ * one user can have multiple approvals associated with them.
+ */
 @Getter
 @Setter
 @AllArgsConstructor

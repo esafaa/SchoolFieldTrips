@@ -11,7 +11,8 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.*;
 
-/* File entity to store attachment like images, pdf of the field trip  */
+/* File entity that stores file information associated with a specific Trip
+ * many files can be associated with one trip  */
 
 @Entity
 @Getter
