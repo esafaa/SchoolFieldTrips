@@ -42,7 +42,6 @@ jobs:
       run: echo "Hello ${{ inputs.name }}"
     - name: Print Server info
       run: |
-          uname -a          # Print system information
           lsb_release -a    # Print distribution-specific information
           free -h           # Display available and used memory
           df -h             # Show disk space usage
