@@ -17,8 +17,8 @@ on:
         required: true
         # The data type of the input
         type: string
-      inputs:
-        name:
+    
+      server:
         # description of environment
         description: 'Lunix informations'
         # Default value if no value is explicitly provided
