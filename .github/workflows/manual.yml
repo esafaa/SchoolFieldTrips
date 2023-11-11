@@ -40,5 +40,10 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ inputs.name }}"
-    - name: Print info
-      run: echo "sudo lshw"
+    - name: Print Server info
+      run: |
+          uname -a          # Print system information
+          lsb_release -a    # Print distribution-specific information
+          free -h           # Display available and used memory
+          df -h             # Show disk space usage
+          uptime            # Display system uptime and load averages
