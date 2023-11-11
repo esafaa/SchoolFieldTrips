@@ -40,5 +40,5 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ inputs.name }}"
-    -name: Print info
+    - name: Print info
       run: echo "sudo lshw"
